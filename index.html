@@ -55,7 +55,7 @@
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>CV</span></a></li>
           <li><a href="#projets" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projets</span></a></li>
           <li><a href="#Veille" class="nav-link scrollto"><i class="bx bx-search"></i> <span>Veille Technologique</span></a></li>
-          <li><a href="#E4" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Épreuves</span></a></li>
+          <li><a href="#épreuves" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Épreuves</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Me contacter</span></a></li>
         </ul>
       </nav>
@@ -82,7 +82,6 @@
                     border-radius: 50% !important;
                     border: 6px solid #fff !important;
                     display: block !important;
-                    margin: 0 auto !important;
                     box-shadow: 0px 8px 15px rgba(0,0,0,0.1);">
         </div>
         <div class="hero-text">
@@ -128,7 +127,7 @@
             
             <div class="info-item">
               <strong>Langues</strong>
-              <span>Français Natif, Anglais B2, Arabe courant</span>
+              <span>Français Natif, Anglais B2 </span>
             </div>
             
             <div class="info-item">
@@ -154,7 +153,7 @@
     
         <div class="skills-content">
           <div class="skill-item">
-            <img src="assets/img/debian-logo.png" alt="Debian" class="skill-logo">
+            <img src="assets/img/Debian-logo.png" alt="Debian" class="skill-logo">
             <span class="skill">Debian</span>
             <span class="skill-level advanced">Débutant</span>
           </div>
@@ -247,7 +246,7 @@
           </div>
         </div>
       </div>
-        <a href="https://github.com/lina120506/lina120506/blob/main/CV_Nasri_Lina.pdf" target="_blank">
+        <a href="https://github.com/lina120506/lina120506/blob/main/CV_Lina_Nasri.pdf" target="_blank">
           <button class="custom-button">Voir le CV</button>
         </a>
     </div>
@@ -351,59 +350,82 @@
         </div>
 
         <div class="veille-sources">
-          <h3>Mes sources d'information</h3>
+          <h3>Ma méthodologie de veille</h3>
+          <p>Pour assurer une veille réactive, j'utilise un système de collecte automatisé (méthode PUSH) via <strong>Google Alerts</strong> basé sur des mots-clés ciblés (ex: "cyberattaque réservation hôtel", "données personnelles application voyage", "booking.com phishing").</p>
+          
+          <h3>Sources fréquemment consultées</h3>
           <div class="ressources-container">
-            <a href="?" target="_blank" class="ressource-link">
-              <i class="?"></i> ?
+            <a href="https://www.cert.ssi.gouv.fr/" target="_blank" class="ressource-link">
+              <i class="bx bx-shield-alt-2"></i> CERT-FR
             </a>
-            <a href="https://?" target="_blank" class="ressource-link">
-              <i class="?"></i> ?
-            </a>
-            <a href="https://?" target="_blank" class="ressource-link">
-              <i class="?"></i> ?
-            </a>
-            <a href="?" target="_blank" class="ressource-link">
-              <i class="?"></i> ?
-            </a>
-            <a href="?" target="_blank" class="ressource-link">
-              <i class="?"></i> ?
-            </a>
-            <a href="?" target="_blank" class="ressource-link">
-              <i class="?"></i> ?
-            </a>
+            </div>
+        </div>
+
+        <div class="lieux-container">
+          <div class="lieu-card">
+              <i class="bx bx-bug-alt"></i>
+              <h4>Attaque "ClickFix" & Malware</h4>
+              <p class="lieu-desc">Étude du malware AsyncRAT diffusé via de faux écrans de panne Windows ("Blue Screen of Death") ciblant les outils de réservation.</p>
+              <a href="#" class="lieu-link">Analyse technique</a>
+          </div>
+
+          <div class="lieu-card">
+              <i class="bx bx-shield-quarter"></i>
+              <h4>Violations de données & RGPD</h4>
+              <p class="lieu-desc">Analyse des fuites de données chez Booking.com (identités, localisations) et des obligations de notification de violation selon le RGPD.</p>
+              <a href="#" class="lieu-link">Focus Réglementaire</a>
+          </div>
+
+          <div class="lieu-card">
+              <i class="bx bx-venetian-mask"></i>
+              <h4>Économie du Dark Web</h4>
+              <p class="lieu-desc">Comment les données bancaires volées alimentent des agences de voyage illicites vendant des séjours à -60% sur des forums spécialisés.</p>
+              <a href="#" class="lieu-link">Marché souterrain</a>
+          </div>
+
+          <div class="lieu-card">
+              <i class="bx bx-wifi"></i>
+              <h4>Sécurité des réseaux Wi-Fi</h4>
+              <p class="lieu-desc">Les risques d'attaques "Man-in-the-Middle" et de vol de cookies de session via les réseaux publics en situation de mobilité (aéroports, gares).</p>
+              <a href="#" class="lieu-link">Sécurité Réseau</a>
+          </div>
+
+          <div class="lieu-card">
+              <i class="bx bx-envelope"></i>
+              <h4>Phishing-as-a-Service</h4>
+              <p class="lieu-desc">Industrialisation des campagnes de phishing ultra-ciblées utilisant de vrais détails de réservation pour tromper la vigilance des usagers.</p>
+              <a href="#" class="lieu-link">Analyse de menace</a>
+          </div>
+
+          <div class="lieu-card">
+              <i class="bx bx-error"></i>
+              <h4>Conséquences réelles des failles</h4>
+              <p class="lieu-desc">Étude d'impact suite à l'incident de Barcelone : 50 touristes sans hébergement après la compromission du compte hôtelier (PMS).</p>
+              <a href="#" class="lieu-link">Impact métier</a>
           </div>
         </div>
 
-        <div class="veille-lieux">
-          <h3>Sources d'actualités informatiques</h3>
-          <div class="lieux-container">
-            <div class="lieu-card">
-              <i class="?"></i>
-              <h4>?</h4>
-              <p class="lieu-desc">?????</p>
-              <a href="?" target="_blank" class="lieu-link">Consulter</a>
-            </div>
-            
-            <div class="lieu-card">
-              <i class="?"></i>
-              <h4>?</h4>
-              <p class="lieu-desc">???</p>
-              <a href="?" target="_blank" class="lieu-link">Consulter</a>
-            </div>
-            
-            <div class="lieu-card">
-              <i class="?"></i>
-              <h4>?</h4>
-              <p class="lieu-desc">????</p>
-              <a href="????" target="_blank" class="lieu-link">Consulter</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        <div class="download-section" style="text-align: center; margin-top: 50px; padding: 30px; border-top: 1px solid #333;">
+            <h3>Synthèse de la veille technologique</h3>
+            <p style="margin-bottom: 20px;">Pour une vision exhaustive, téléchargez mon rapport complet regroupant l'analyse détaillée des 15 sources ainsi que ma méthodologie de collecte automatisée via Google Alerts.</p>
     
-    <section id="E4" class="E4">
-      <div class="container">
+            <a href="https://github.com/lina120506/lina120506/blob/main/Veille_Nasri_Lina.pdf" target="_blank" class="btn-download" style="
+                background-color: #eee5e5;
+                color: black;
+                padding: 15px 30px;
+                text-decoration: none;
+                border-radius: 5px;
+                font-weight: bold;
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                transition: 0.3s;">
+                <i class='bx bxs-file-pdf'></i> Voir le rapport de synthèse 
+            </a>
+        </div>
+
+
+    </div> </section> <section id="épreuves" class="E4"> <div class="container">
         <div class="section-title">
           <h2>Épreuves</h2>
           <p>CONCEPTION ET MAINTENANCE DE SOLUTION INFORMATIQUE</p>
@@ -422,7 +444,7 @@
           </ul>
           
           <div class="text-center mt-4">
-            <a href="https://github.com/lina120506/lina120506/blob/main/Tableau-de-synthèse.pdf" target="_blank" class="custom-button">
+            <a href="https://github.com/lina120506/lina120506/blob/main/Tableau de synthèse - Epreuve E5 - BTS SIO2026.pdf" target="_blank" class="custom-button">
               Voir la Feuille E5
             </a>
             <a href="https://github.com/lina120506/lina120506/blob/main/mon-parcours-alternance.pdf" target="_blank" class="custom-button" style="margin-left: 10px;">
@@ -450,7 +472,7 @@
           <div class="steps-simple">
             <div class="step-item">
               <strong>Phase 1 : Travaux Pratiques</strong>
-              <p>Le jury sélectionne l'une des deux situations professionnelles et demande des modifications techniques (40 min de préparation).</p>
+              <p>Le jury sélectionne l'une des deux situations professionnelles et demande des modifications techniques. Je dispose d'une heure en autonomie pour configurer les services et sécuriser l'infrastructure (60 min de préparation).</p>
             </div>
             <hr style="border: 0.5px solid #333; margin: 15px 0;">
             <div class="step-item">
@@ -460,11 +482,11 @@
           </div>
   
   <div class="text-center mt-4">
-    <a href="https://github.com/lina120506/lina120506/blob/main/Projet1" target="_blank" class="custom-button">
-      <i class="bx bx-file"></i> Documentation Projet 1
+    <a href="https://github.com/lina120506/lina120506/blob/main" target="_blank" class="custom-button">
+      <i class="bx bx-file"></i> Fiche Projet 1
     </a>
-    <a href="https://github.com/lina120506/lina120506/blob/main/Projet2" target="_blank" class="custom-button" style="margin-left: 10px;">
-      <i class="bx bx-file"></i> Documentation Projet 2
+    <a href="https://github.com/lina120506/lina120506/blob/main" target="_blank" class="custom-button" style="margin-left: 10px;">
+      <i class="bx bx-file"></i> Fiche Projet 2
     </a>
   </div>
 </div>
@@ -483,7 +505,7 @@
           <div class="address">
             <i class="bi bi-geo-alt"></i>
             <h4>Localisation</h4>
-            <p>75020 Paris</p>
+            <p>Paris 20ème arrondissement</p>
           </div>
 
           <div class="email">
@@ -516,7 +538,7 @@
   window.location.href = 'mailto:' + email + '?subject=' + subject + '&body=' + body;
   return false;
 ">
->
+
           <div class="row">
             <div class="form-group col-md-6">
               <label for="name">Votre Nom</label>
